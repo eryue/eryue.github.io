@@ -2,7 +2,7 @@
 layout: default
 title: loading...
 ---
-<div id='cse' style='width: 100%;'>Loading...</div>
+<div id='cse' style='width: 100%;'>Loading</div>
 <script src='//www.google.com/jsapi' type='text/javascript'></script>
 <script type='text/javascript'>
 google.load('search', '1', {language: 'zh-Hans', style: google.loader.themes.V2_DEFAULT});
@@ -13,7 +13,7 @@ google.setOnLoadCallback(function() {
   customSearchOptions['enableOrderBy'] = true;
   customSearchOptions['orderByOptions'] = orderByOptions;
   customSearchOptions['overlayResults'] = true;
-  var customSearchControl =   new google.search.CustomSearchControl('015104026998727815951:bza74imjgds', customSearchOptions);
+  var customSearchControl =   new google.search.CustomSearchControl('008862401058477719823:gubxb3dq-5s', customSearchOptions);
   customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
   var options = new google.search.DrawOptions();
   options.setAutoComplete(true);
@@ -25,4 +25,3 @@ customSearchControl.execute(search);
 }
 }, true);
 </script>
-
