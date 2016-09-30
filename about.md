@@ -21,7 +21,3 @@ title: "关于：About"
 ### 关于本站：
 
 * Fork于[Github](https://github.com/LippiOuYang/LippiOuYang.github.io)
-<!--
-* 模板及样式来源[Useful Paradigm](http://usefulparadigm.com/)
--->
-
